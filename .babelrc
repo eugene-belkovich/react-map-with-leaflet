@@ -1,0 +1,17 @@
+{
+  "presets": [
+    "es2015",
+    "react",
+    "stage-0"
+  ],
+  "plugins": [
+    "autobind-class-methods",
+    [
+      "babel-plugin-styled-components",
+      {
+        "preprocess": true
+      }
+    ]
+  ],
+  "retainLines": true
+}

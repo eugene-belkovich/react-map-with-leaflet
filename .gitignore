@@ -1,0 +1,28 @@
+# IDE
+.idea
+.vscode
+
+# Types
+typings
+typings.json
+
+# Environment
+node_modules
+gift_registry_hbc.env
+gr_api.env
+gr_client.env
+**/package-lock.json
+**/yarn.lock
+
+# Translations
+frontend/src/system/translations/*/*_old.json
+backend/api/translations/*/*_old.json
+updateTranslations/temp
+
+# Logs
+error.log
+logs/*
+
+# Docs
+/docs/dist/*
+orders.js
