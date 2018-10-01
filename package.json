@@ -38,6 +38,7 @@
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-leaflet": "^2.0.1",
-    "leaflet": "^1.3.4"
+    "leaflet": "^1.3.4",
+    "geojson-world-map": "^0.0.1"
   }
 }
