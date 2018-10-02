@@ -4,4 +4,4 @@ import Map from './src/Map';
 import ClusterMap from './src/ClusterMap';
 import GeoJsonMap from './src/GeoJsonMap';
 
-ReactDOM.render(<GeoJsonMap />, document.getElementById('map'));
+ReactDOM.render(<ClusterMap />, document.getElementById('map'));

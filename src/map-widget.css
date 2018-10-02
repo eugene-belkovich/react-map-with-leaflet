@@ -1,0 +1,284 @@
+.mapContainer {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.mapContainer .item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 31px -32px 70px 10px rgba(0, 0, 0, 0.55);
+	position: relative;
+	overflow: hidden;
+	height: calc(100% - 16px) !important;
+}
+
+.mapContainer .textItemContainer {
+	position: relative !important;
+}
+
+.mapContainer .textItemWrapper {
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.flyoverContainer::before {
+	content: ' ';
+	position: relative;
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 100px 50px 0 0;
+	border-color: transparent #fff transparent transparent;
+	transform: rotate(210deg);
+	opacity: 0.7;
+	top: 385px;
+	left: -20px;
+}
+
+.markerClusterSmall {
+	border-radius: 20px;
+	font-size: 0.6vw;
+	color: #fff;
+	font-weight: 900;
+	font-family: Open Sans;
+	text-transform: uppercase;
+}
+
+.markerClusterSmallDivOne {
+	position: absolute;
+	margin-left: -5px;
+	margin-top: -5px;
+	border-radius: 7.5em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation: fadein 3s;
+}
+
+.markerClusterSmallDivTwo {
+	position: absolute;
+	width: 5em;
+	height: 5em;
+	border-radius: 6em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation: fadein 2.5s;
+}
+
+.markerClusterSmallDivThree {
+	width: 3.5em;
+	height: 3.5em;
+	border-radius: 4.5em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation: fadein 2s;
+}
+
+.markerClusterSmallDivFour {
+	width: 2em;
+	height: 2em;
+	border-radius: 3em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation: fadein 1.5s;
+}
+
+.markerClusterSmallLabel {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.markerClusterMedium {
+	border-radius: 40px;
+	font-size: 0.6vw;
+	color: #fff;
+	font-weight: 900;
+	font-family: Open Sans;
+	text-transform: uppercase;
+}
+
+.markerClusterMediumDivOne {
+	position: absolute;
+	margin-left: -5px;
+	margin-top: -5px;
+	border-radius: 9.5em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation: fadein 3s;
+}
+
+.markerClusterMediumDivTwo {
+	position: absolute;
+	width: 6.5em;
+	height: 6.5em;
+	border-radius: 8em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation: fadein 2.5s;
+}
+
+.markerClusterMediumDivThree {
+	width: 5em;
+	height: 5em;
+	border-radius: 6.5em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation: fadein 2s;
+}
+
+.markerClusterMediumDivFour {
+	width: 3.5em;
+	height: 3.5em;
+	border-radius: 5em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation: fadein 1.5s;
+}
+
+.markerClusterMediumLabel {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.markerClusterLarge {
+	border-radius: 70px;
+	font-size: 0.6vw;
+	color: #fff;
+	font-weight: 900;
+	font-family: Open Sans;
+	text-transform: uppercase;
+}
+
+.markerClusterLargeDivOne {
+	position: absolute;
+	margin-left: -5px;
+	margin-top: -5px;
+	border-radius: 12em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation: fadein 3s;
+}
+
+.markerClusterLargeDivTwo {
+	position: absolute;
+	width: 9em;
+	height: 9em;
+	border-radius: 10.5em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation: fadein 2.5s;
+}
+
+.markerClusterLargeDivThree {
+	width: 7.5em;
+	height: 7.5em;
+	border-radius: 9em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation: fadein 2s;
+}
+
+.markerClusterLargeDivFour {
+	padding: 1px;
+	width: 6em;
+	height: 6em;
+	border-radius: 7.5em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation: fadein 1.5s;
+}
+
+.markerClusterLargeLabel {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.markerClusterLargeXL {
+	border-radius: 70px;
+	font-size: 0.6vw;
+	color: #fff;
+	font-weight: 900;
+	font-family: Open Sans;
+	text-transform: uppercase;
+}
+
+.markerClusterLargeXLDivOne {
+	position: absolute;
+	margin-left: -5px;
+	margin-top: -5px;
+	border-radius: 12em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation: fadein 3s;
+}
+
+.markerClusterLargeXLDivTwo {
+	position: absolute;
+	width: 10.5em;
+	height: 10.5em;
+	border-radius: 10.5em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation: fadein 2.5s;
+}
+
+.markerClusterLargeXLDivThree {
+	width: 9em;
+	height: 9em;
+	border-radius: 9em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation: fadein 2s;
+}
+
+.markerClusterLargeXLDivFour {
+	padding: 1px;
+	width: 7.5em;
+	height: 7.5em;
+	border-radius: 7.5em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation: fadein 1.5s;
+}
+
+.markerClusterLargeXLLabel {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.circle {
+	animation: fadein 1.5s;
+}
